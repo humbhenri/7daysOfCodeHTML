@@ -99,6 +99,7 @@ main {
 
 .cabecalho {
 	text-align: center;
+  padding: 96px 0px 96px 0px;
 }
 
 .cabecalho h5 {
@@ -119,4 +120,21 @@ main {
 	color: var(--text-color);
 	font-size: 20px;
 	line-height: 30px;
+  font-weight: 400;
+}
+
+.metricas-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 32px;
+  gap: 32px;
+  color: var(--text-color);
+  margin: 0 80px;
+}
+
+.metricas-container h1 {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 0;
 }
